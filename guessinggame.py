@@ -19,12 +19,12 @@ if choose == "Yes":
 
         else:
             print("Good job! You guessed it correctly!")
-            print("Automatic close in T-10 seconds.")
-            time.sleep(10) # This will tell the file to stop running for 10 seconds
-            break # This tells the file that the program is finished and can be closed out.
+            print("Self-destruct in T-10 seconds.")
+            time.sleep(10)  # This will tell the file to stop running for 10 seconds
+            break  # This tells the file that the program is finished and can be closed out.
 else:
     print("Have a good day!")
-    print("Automatic close in T-10 seconds.")
-    time.sleep(10) # This is the same as the last sleep, 
+    print("Self-destruct in T-10 seconds.")
+    time.sleep(10)  # This is the same as the last sleep,
     # but also now works as a break because it is the last thing in the file to run
-    # So it closes out Automatically. 
+    # So it closes out Automatically.
