@@ -20,11 +20,24 @@ if choose == "Yes":
         else:
             print("Good job! You guessed it correctly!")
             print("Self-destruct in T-10 seconds.")
-            time.sleep(10)  # This will tell the file to stop running for 10 seconds
+
+            for i in range(10, 0, -1):
+                print(i)
+                time.sleep(1)  # This loop counts down from 10 every second before closing out of the terminal
+
+            print("Self-destruction emanate, Good-bye.")
+            time.sleep(1)
+
             break  # This tells the file that the program is finished and can be closed out.
 else:
     print("Have a good day!")
     print("Self-destruct in T-10 seconds.")
-    time.sleep(10)  # This is the same as the last sleep,
+
+    for i in range(10, 0, -1):
+        print(i)
+        time.sleep(1)  # This loop counts down from 10 every second before closing out of the terminal
+
+    print("Self-destruction emanate, Good-bye.")
+    time.sleep(1)
     # but also now works as a break because it is the last thing in the file to run
     # So it closes out Automatically.
