@@ -1,5 +1,5 @@
 # Guessing-Game
-This is a simple guessing game. Choose whether you want to play or not, and then guess a number between (0, 101).
+This is a simple guessing game. Choose whether you want to play or not, and then guess a number between 1 and 100.
 
 If the file closes out right after you have inputed a number that means you have guessed it right.
 
